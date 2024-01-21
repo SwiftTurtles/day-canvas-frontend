@@ -30,7 +30,7 @@ class CustomBottomAppBar extends StatelessWidget {
             onPressed: () {
               // 서랍(드로어) 버튼이 눌렸을 때 처리
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CalenderScreen()));
+                  MaterialPageRoute(builder: (context) => CalendarScreen()));
             },
           ),
           IconButton(
